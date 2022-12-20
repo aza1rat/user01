@@ -1,4 +1,5 @@
-﻿using System;
+﻿using OOO_Aromatny_Mir.Classes;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -44,12 +45,21 @@ namespace OOO_Aromatny_Mir
             for (int i = 0; i < captcha.Length; i++)
             {
                 placeX = random.Next(placeX + fontSize / 2, placeX + fontSize * 2);
-                int placeY = random.Next(0,PictureBoxCaptcha.Height - fontSize / 2);
+                int placeY = random.Next(0,PictureBoxCaptcha.Height - fontSize * 2);
                 captchaDraw.DrawString(captcha[i].ToString(),captchaFont,Brushes.Black,placeX,placeY);
                 captchaDraw.DrawLine(Pens.Black, placeX, placeY, random.Next(placeX, PictureBoxCaptcha.Width), random.Next(placeY, PictureBoxCaptcha.Height));
             }
             captchaDraw.Flush();
             PictureBoxCaptcha.Image = captchaPlace;
+        }
+
+        private void ButtonLogin_Click(object sender, EventArgs e)
+        {
+            string login = TextBoxLogin.Text;
+            string password = TextBoxPassword.Text;
+            var user = Helper.Model.User.Where(u => u.UserLogin == login && u.UserPassword == password).FirstOrDefault();
+            Helper.CurrentUser = user;
+            Helper.CurrentUserRole = Helper.Model.Role.Where(r => r.RoleID == user.UserRole).FirstOrDefault();
         }
     }
 }

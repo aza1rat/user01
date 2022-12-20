@@ -48,21 +48,23 @@
             this.TablePanelTempUp.Controls.Add(this.ButtonTempExit, 2, 0);
             this.TablePanelTempUp.Dock = System.Windows.Forms.DockStyle.Top;
             this.TablePanelTempUp.Location = new System.Drawing.Point(0, 0);
+            this.TablePanelTempUp.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.TablePanelTempUp.Name = "TablePanelTempUp";
             this.TablePanelTempUp.RowCount = 1;
             this.TablePanelTempUp.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.TablePanelTempUp.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 50F));
-            this.TablePanelTempUp.Size = new System.Drawing.Size(800, 50);
+            this.TablePanelTempUp.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 62F));
+            this.TablePanelTempUp.Size = new System.Drawing.Size(1067, 62);
             this.TablePanelTempUp.TabIndex = 0;
             // 
             // PictureBoxLogo
             // 
             this.PictureBoxLogo.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.PictureBoxLogo.Location = new System.Drawing.Point(3, 3);
-            this.PictureBoxLogo.MaximumSize = new System.Drawing.Size(50, 50);
-            this.PictureBoxLogo.MinimumSize = new System.Drawing.Size(50, 50);
+            this.PictureBoxLogo.Location = new System.Drawing.Point(4, 4);
+            this.PictureBoxLogo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.PictureBoxLogo.MaximumSize = new System.Drawing.Size(67, 62);
+            this.PictureBoxLogo.MinimumSize = new System.Drawing.Size(67, 62);
             this.PictureBoxLogo.Name = "PictureBoxLogo";
-            this.PictureBoxLogo.Size = new System.Drawing.Size(50, 50);
+            this.PictureBoxLogo.Size = new System.Drawing.Size(67, 62);
             this.PictureBoxLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.PictureBoxLogo.TabIndex = 0;
             this.PictureBoxLogo.TabStop = false;
@@ -71,9 +73,10 @@
             // 
             this.LabelNameForm.AutoSize = true;
             this.LabelNameForm.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.LabelNameForm.Location = new System.Drawing.Point(58, 0);
+            this.LabelNameForm.Location = new System.Drawing.Point(77, 0);
+            this.LabelNameForm.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.LabelNameForm.Name = "LabelNameForm";
-            this.LabelNameForm.Size = new System.Drawing.Size(571, 50);
+            this.LabelNameForm.Size = new System.Drawing.Size(761, 62);
             this.LabelNameForm.TabIndex = 1;
             this.LabelNameForm.Text = "Шаблон";
             this.LabelNameForm.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -81,9 +84,10 @@
             // ButtonTempExit
             // 
             this.ButtonTempExit.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.ButtonTempExit.Location = new System.Drawing.Point(635, 3);
+            this.ButtonTempExit.Location = new System.Drawing.Point(846, 4);
+            this.ButtonTempExit.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.ButtonTempExit.Name = "ButtonTempExit";
-            this.ButtonTempExit.Size = new System.Drawing.Size(162, 44);
+            this.ButtonTempExit.Size = new System.Drawing.Size(217, 54);
             this.ButtonTempExit.TabIndex = 2;
             this.ButtonTempExit.Text = "Выход";
             this.ButtonTempExit.UseVisualStyleBackColor = true;
@@ -92,23 +96,25 @@
             // 
             this.TablePanelTempDown.ColumnCount = 1;
             this.TablePanelTempDown.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.TablePanelTempDown.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.TablePanelTempDown.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 27F));
             this.TablePanelTempDown.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.TablePanelTempDown.Location = new System.Drawing.Point(0, 400);
+            this.TablePanelTempDown.Location = new System.Drawing.Point(0, 492);
+            this.TablePanelTempDown.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.TablePanelTempDown.Name = "TablePanelTempDown";
             this.TablePanelTempDown.RowCount = 1;
             this.TablePanelTempDown.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.TablePanelTempDown.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 50F));
-            this.TablePanelTempDown.Size = new System.Drawing.Size(800, 50);
+            this.TablePanelTempDown.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 62F));
+            this.TablePanelTempDown.Size = new System.Drawing.Size(1067, 62);
             this.TablePanelTempDown.TabIndex = 1;
             // 
             // FormTemplate
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1067, 554);
             this.Controls.Add(this.TablePanelTempDown);
             this.Controls.Add(this.TablePanelTempUp);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "FormTemplate";
             this.Text = "Шаблон";
             this.TablePanelTempUp.ResumeLayout(false);

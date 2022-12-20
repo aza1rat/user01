@@ -55,6 +55,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Classes\Helper.cs" />
     <Compile Include="EntityClasses\ModelDB.cs" />
     <Compile Include="EntityClasses\Role.cs" />
     <Compile Include="EntityClasses\User.cs" />
@@ -110,8 +111,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Classes\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

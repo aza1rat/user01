@@ -33,5 +33,8 @@ namespace OOO_Aromatny_Mir.EntityClasses
         public string UserPassword { get; set; }
 
         public int UserRole { get; set; }
+
+        [Column(TypeName = "image")]
+        public byte[] UserPhoto { get; set; }
     }
 }
