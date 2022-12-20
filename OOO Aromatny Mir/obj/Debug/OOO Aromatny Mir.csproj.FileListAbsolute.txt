@@ -1,0 +1,19 @@
+C:\Users\1\Documents\CSharp\тренировка 3\OOO Aromatny Mir\OOO Aromatny Mir\bin\Debug\OOO Aromatny Mir.exe.config
+C:\Users\1\Documents\CSharp\тренировка 3\OOO Aromatny Mir\OOO Aromatny Mir\bin\Debug\OOO Aromatny Mir.exe
+C:\Users\1\Documents\CSharp\тренировка 3\OOO Aromatny Mir\OOO Aromatny Mir\bin\Debug\OOO Aromatny Mir.pdb
+C:\Users\1\Documents\CSharp\тренировка 3\OOO Aromatny Mir\OOO Aromatny Mir\bin\Debug\EntityFramework.dll
+C:\Users\1\Documents\CSharp\тренировка 3\OOO Aromatny Mir\OOO Aromatny Mir\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\1\Documents\CSharp\тренировка 3\OOO Aromatny Mir\OOO Aromatny Mir\bin\Debug\EntityFramework.xml
+C:\Users\1\Documents\CSharp\тренировка 3\OOO Aromatny Mir\OOO Aromatny Mir\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\1\Documents\CSharp\тренировка 3\OOO Aromatny Mir\OOO Aromatny Mir\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\1\Documents\CSharp\тренировка 3\OOO Aromatny Mir\OOO Aromatny Mir\obj\Debug\OOO Aromatny Mir.csproj.AssemblyReference.cache
+C:\Users\1\Documents\CSharp\тренировка 3\OOO Aromatny Mir\OOO Aromatny Mir\obj\Debug\OOO Aromatny Mir.csproj.SuggestedBindingRedirects.cache
+C:\Users\1\Documents\CSharp\тренировка 3\OOO Aromatny Mir\OOO Aromatny Mir\obj\Debug\OOO_Aromatny_Mir.Properties.Resources.resources
+C:\Users\1\Documents\CSharp\тренировка 3\OOO Aromatny Mir\OOO Aromatny Mir\obj\Debug\OOO_Aromatny_Mir.FormAuthorization.resources
+C:\Users\1\Documents\CSharp\тренировка 3\OOO Aromatny Mir\OOO Aromatny Mir\obj\Debug\OOO_Aromatny_Mir.FormCatalogue.resources
+C:\Users\1\Documents\CSharp\тренировка 3\OOO Aromatny Mir\OOO Aromatny Mir\obj\Debug\OOO_Aromatny_Mir.FormTemplate.resources
+C:\Users\1\Documents\CSharp\тренировка 3\OOO Aromatny Mir\OOO Aromatny Mir\obj\Debug\OOO Aromatny Mir.csproj.GenerateResource.cache
+C:\Users\1\Documents\CSharp\тренировка 3\OOO Aromatny Mir\OOO Aromatny Mir\obj\Debug\OOO Aromatny Mir.csproj.CoreCompileInputs.cache
+C:\Users\1\Documents\CSharp\тренировка 3\OOO Aromatny Mir\OOO Aromatny Mir\obj\Debug\OOO Aromatny Mir.csproj.CopyComplete
+C:\Users\1\Documents\CSharp\тренировка 3\OOO Aromatny Mir\OOO Aromatny Mir\obj\Debug\OOO Aromatny Mir.exe
+C:\Users\1\Documents\CSharp\тренировка 3\OOO Aromatny Mir\OOO Aromatny Mir\obj\Debug\OOO Aromatny Mir.pdb
